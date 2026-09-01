@@ -1,0 +1,66 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+.kotlin
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Windows ###
+Thumbs.db
+desktop.ini
+
+### Logs ###
+*.log
+logs/
+
+### Test reports ###
+test-output/
+surefire-reports/
+failsafe-reports/
+allure-results/
+allure-report/
+extent-reports/
+screenshots/
+
+### Environment / secrets ###
+.env
+*.env
+config/local.properties
+secrets.properties
+
+### WebDriver binaries ###
+drivers/
+*.exe
+chromedriver
+geckodriver
